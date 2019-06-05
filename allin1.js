@@ -94,7 +94,7 @@ class Drawing{
         ctx.font = "70px 'press start 2p'";
         ctx.strokeText("Game Over", centreX, centreY - 180);
         ctx.fillText("Game Over", centreX, centreY - 180);//texte à écrire, coordonnées du txt
-        ctx.font = " 50px 'vt323'";
+        ctx.font = " 30px 'press start 2p'";
         ctx.strokeText("Press Space to play again", centreX, centreY - 120);
         ctx.fillText("Press Space to play again", centreX, centreY - 120);
         ctx.restore();
