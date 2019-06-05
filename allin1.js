@@ -86,12 +86,12 @@ class Drawing{
 
     static gameOver(ctx, centreX, centreY) {
         ctx.save();
-        ctx.font = "70px 'press start 2p'";
         ctx.fillStyle = "#aaa";
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.strokeStyle = "#000";
         ctx.lineWidth = 5;
+        ctx.font = "70px 'press start 2p'";
         ctx.strokeText("Game Over", centreX, centreY - 180);
         ctx.fillText("Game Over", centreX, centreY - 180);//texte à écrire, coordonnées du txt
         ctx.font = " 50px 'vt323'";
